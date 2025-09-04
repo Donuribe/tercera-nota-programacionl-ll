@@ -1,8 +1,4 @@
-package Semana1.src;
-
-
-
-
+package semana1;
 
 public class App {
 
@@ -36,7 +32,7 @@ public class App {
         BankAccount account1 = new BankAccount();
         account1.accountNumber = "1233-4355-0000-2786";
         account1.balance = 2000000;
-        account1.owner = "uribe";
+        account1.owner = "Polo";
         System.out.println("Saldo Disponible: " + account1.balance);
         
         account1.deposit(1500000);
