@@ -1,0 +1,8 @@
+package Tienda;
+
+public class app {
+    public static void main(String[] args) {
+        Usuario usuario = new Usuario();
+        usuario.ejecutar();
+    }
+}
