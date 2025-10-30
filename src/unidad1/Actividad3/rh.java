@@ -1,4 +1,4 @@
-package  Unidad1.Actividad3;
+package  unidad1.actividad3;
 
 public class rh {
     public String name;

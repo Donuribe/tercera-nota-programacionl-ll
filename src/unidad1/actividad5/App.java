@@ -1,4 +1,4 @@
-package Unidad1.actividad5;
+package unidad1.actividad5;
 
 public class App {
     public static void main(String[] args) {

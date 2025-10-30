@@ -1,4 +1,4 @@
-package     Unidad1.actividad5;
+package     unidad1.actividad5;
 
 public class Studen {
     public String nombre ;

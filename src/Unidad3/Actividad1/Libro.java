@@ -1,4 +1,4 @@
-package Unidad3.Actividad1;
+package unidad3.actividad1;
 
 
 
@@ -14,12 +14,12 @@ public class Libro {
         this.Precio = Precio;
     }
 
-    public String gettitulo() {
+    public String getTitulo() {
         return Titulo;
 
     }
 
-    public void settutulo(String titulo) {
+    public void setTitulo(String titulo) {
         this.Titulo = titulo;
     }
 
@@ -27,21 +27,21 @@ public class Libro {
         return Autor;
     }
 
-    public void setautor(String autor) {
+    public void setAutor(String autor) {
         this.Autor = autor;
     }
 
-    public double getprecio() {
+    public double getPrecio() {
         return Precio;
     }
 
-    public void setprecio(double precio) {
+    public void setPrecio(double precio) {
         this.Precio = precio;
     }
 
     @Override
     public String toString() {
-        return String .format("Libro{titulo='%s', autor='%s', precio=%.2f}", Titulo, Autor, Precio);
+        return String .format("titulo:'%-30s', autor:'%-30s', precio:%.2f}", Titulo, Autor, Precio);
     }
         
 
